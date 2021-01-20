@@ -56,3 +56,9 @@ footer{
   margin: 10px;
   height: 430px;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+} 
